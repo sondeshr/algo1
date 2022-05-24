@@ -1,0 +1,25 @@
+algorithem sentence
+i:integer,
+nbchar:integer:=0
+words_count:=0;
+ vowels:INTEGER:=0
+
+phrase:string
+begin
+read(phrase)
+for i from 1 to phrase.lentgh i++ do
+nbchar:=nbchar+1
+
+
+if(ch[i]=" " ||ch[i]=".")
+words_count:=words_count+1
+end_if
+if(ch[i]>=a||ch[i]<=z||ch[i]>=A||ch[i]<=Z)
+vowels:=vowels+1
+end if
+
+end_for
+Write(nbchar)
+Write(words_count)
+Write(vowels)
+end
